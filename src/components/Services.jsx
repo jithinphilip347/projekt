@@ -16,7 +16,7 @@ const Services = () => {
         
         <div className="absolute inset-x-0 top-24 flex items-center justify-between px-24 py-4 text-lg font-medium underline  underline-offset-8">
           <p>Nr.2</p>
-          <p>Our projects</p>
+          <p>Our Services</p>
           <p>BIM</p>
         </div> 
         <div className="relative top-80 px-32">

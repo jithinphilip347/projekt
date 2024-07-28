@@ -24,6 +24,12 @@ const Projects = () => {
                             <p>4000 m2</p>
                         </div>
                     </div>
+                    <div className="flex items-center relative bottom-[178px] left-[310px]  gap-4 bg-white w-32  h-14 justify-center rounded-full">
+                <button className=" text-black">
+                   Discover
+                </button>
+                <img src={assets.right2} alt="" className="w-5 h-5"/>
+            </div>
                     </div>    
                     <div className="w-[460px] h-[500px] overflow-hidden">
                         <img src={assets.project3} alt="" className="w-full h-full object-cover"/>
