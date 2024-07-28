@@ -34,18 +34,18 @@ const About = () => {
               knowledge, technology, and innovation.
             </p>
             <div className="flex flex-col gap-16 relative top-16 ">
-              <h1 className="flex items-center gap-4 text-2xl font-medium ">
-                <span className="relative">
+              <h1 className="flex items-center gap-4 text-2xl font-medium group ">
+                <span className="relative ">
                    More about Teca Projekt
                   <span className="absolute  left-0 right-[-36px] bottom-[-8px] h-[2px] bg-black"></span>
                 </span>
                 <img
                   src={assets.right2}
                   alt=""
-                  className="w-5 h-5 text-black"
+                  className="w-5 h-5 text-black group-hover:translate-x-2 transition-transform duration-300 ease-in-out "
                 />
               </h1>
-              <h1 className="flex items-center gap-4 text-2xl font-medium  ">
+              <h1 className="flex items-center gap-4 text-2xl font-medium group ">
                 <span className="relative">
                   See more projects
                   <span className="absolute  left-0 right-[-36px] bottom-[-8px] h-[2px] bg-black"></span>
@@ -53,7 +53,7 @@ const About = () => {
                 <img
                   src={assets.right2}
                   alt=""
-                  className="w-5 h-5 text-black"
+                  className="w-5 h-5 text-black group-hover:translate-x-2 transition-transform duration-300 ease-in-out"
                 />
               </h1>
             </div>

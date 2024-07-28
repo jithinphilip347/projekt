@@ -13,9 +13,9 @@ const Footer = () => {
               <br />
               values and thinking BIG.
             </h1>
-            <div className="flex items-center gap-4 bg-black w-56 mt-14 h-14 justify-center rounded-full">
+            <div className="flex items-center gap-4 bg-black w-56 mt-14 h-14 justify-center rounded-full group">
               <button className="text-white">Send messages</button>
-              <img src={assets.right} alt="arrow icon" className="w-5 h-5" />
+              <img src={assets.right} alt="arrow icon" className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300 ease-in-out" />
             </div>
           </div>
           <div className="md:w-1/2 flex flex-col gap-28">
